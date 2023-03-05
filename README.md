@@ -63,7 +63,7 @@ npm run start
     </tr>
     <tr>
       <th>Hosted Demo</th>
-      <td><a href="">Live DEMO Site</a></td>
+      <td><a href="https://piyushsharma1209.github.io/Semesterproject-2/">Live DEMO Site</a></td>
 
 </tr>
 
