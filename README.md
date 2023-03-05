@@ -2,7 +2,7 @@
 
 ## Description
 
-Auction is a online auction website, look and feel and easy to navigate, where user can sign up and login and get 1000 credits for free, Non-registered users can search through the listings, but only registered users can make bids on listings.
+Piyo is a online website where users can log in or register to add items for auction. 
 
 ## Built With
 
