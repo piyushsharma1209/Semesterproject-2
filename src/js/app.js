@@ -42,9 +42,11 @@ function displayProducts() {
                 '<p class="card-text">' +
                 product.description +
                 '</p>' +
+                '<p>Starting price (In USD):</p>' +
                 product.price +
                 '</h5>' +
                 '<p class="card-text">' +
+                '<button type="submit" class="btn btn-primary">Bid Now</button>' +
                 '</div>' +
                 '</div>';
         }
