@@ -1,0 +1,206 @@
+// Import Bootstrap SCSS
+@import '~bootstrap/scss/bootstrap';
+
+// Set primary color
+$primary-color: #007bff;
+
+// Navigation bar styles
+nav {
+    padding-left: 2rem; // Add more margin to the left
+    padding-right: 2rem; // Add more margin to the right
+
+    .navbar-brand {
+        color: rgb(0, 247, 255);
+        padding-left: 2rem; // Add more margin to the left
+
+    }
+
+    .nav-link {
+        color: blue;
+
+        &:hover {
+            color: #ccc;
+        }
+    }
+}
+
+// Product card styles
+.card {
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #444;
+    }
+
+    .btn-primary {
+        background-color: $primary-color;
+        border-color: $primary-color;
+        margin-top: 1rem;
+
+        &:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    }
+
+}
+
+.card-product {
+    border: 1px solid #ddd;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 5px;
+
+    .card-product__name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .card-product__image {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .card-product__description {
+        margin-bottom: 10px;
+    }
+
+    .card-product__bid-button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color: #0062cc;
+        }
+    }
+}
+
+// Login form
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    h2 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    button[type="submit"] {
+        background-color: $primary-color;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+
+    .register-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    .card-header {
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    input[type="text"] {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #0062cc;
+    }
+
+    .container {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body {
+        background-color: #f8f9fa;
+    }
+}
+
+.product-card {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 550px;
+}
